@@ -1,0 +1,122 @@
+{
+  "subjects": [
+    {
+      "id": "physics",
+      "name": "Vật Lý",
+      "icon": "⚛️",
+      "color": "blue",
+      "chapters": [
+        {
+          "id": "mechanics",
+          "name": "Cơ Học",
+          "lessons": [
+            {
+              "id": "pendulum",
+              "title": "Con Lắc Đơn",
+              "content": "Con lắc đơn là một hệ cơ học đơn giản gồm một vật nặng treo vào một sợi dây không giãn, khối lượng không đáng kể.",
+              "formulas": [
+                "T = 2π√(l/g)",
+                "ω = √(g/l)",
+                "E = mgl(1 - cosα)"
+              ],
+              "concepts": [
+                "Chu kỳ dao động phụ thuộc vào chiều dài dây và gia tốc trọng trường",
+                "Con lắc đơn dao động điều hòa khi biên độ góc nhỏ (< 10°)",
+                "Năng lượng cơ được bảo toàn trong dao động"
+              ]
+            },
+            {
+              "id": "newton-laws",
+              "title": "Định Luật Newton",
+              "content": "Ba định luật Newton là nền tảng của cơ học cổ điển, mô tả mối quan hệ giữa lực và chuyển động.",
+              "formulas": [
+                "F = ma",
+                "F₁₂ = -F₂₁",
+                "Σ F = 0 (trạng thái cân bằng)"
+              ],
+              "concepts": [
+                "Định luật 1: Vật giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu không có lực tác dụng",
+                "Định luật 2: Gia tốc tỉ lệ thuận với lực và tỉ lệ nghịch với khối lượng",
+                "Định luật 3: Lực và phản lực luôn xuất hiện thành cặp"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "electricity",
+          "name": "Điện Học",
+          "lessons": [
+            {
+              "id": "ohms-law",
+              "title": "Định Luật Ohm",
+              "content": "Định luật Ohm mô tả mối quan hệ tuyến tính giữa hiệu điện thế, cường độ dòng điện và điện trở trong một mạch điện.",
+              "formulas": [
+                "V = I × R",
+                "P = I × V = I²R = V²/R",
+                "R = ρl/S"
+              ],
+              "concepts": [
+                "Hiệu điện thế tỉ lệ thuận với cường độ dòng điện",
+                "Điện trở phụ thuộc vào vật liệu, chiều dài và tiết diện",
+                "Công suất tiêu thụ tăng theo bình phương dòng điện"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Hoá Học",
+      "icon": "🧪",
+      "color": "green",
+      "chapters": [
+        {
+          "id": "chemical-reactions",
+          "name": "Phản Ứng Hoá Học",
+          "lessons": [
+            {
+              "id": "acid-base",
+              "title": "Axit - Bazơ",
+              "content": "Axit là chất nhường proton (H⁺), bazơ là chất nhận proton. Phản ứng trung hoà tạo muối và nước.",
+              "formulas": [
+                "pH = -log[H⁺]",
+                "pH + pOH = 14",
+                "Axit + Bazơ → Muối + Nước"
+              ],
+              "concepts": [
+                "pH < 7: dung dịch axit, pH > 7: dung dịch bazơ",
+                "Chất chỉ thị màu giúp nhận biết axit-bazơ",
+                "Phản ứng trung hoà là phản ứng toả nhiệt"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Sinh Học",
+      "icon": "🧬",
+      "color": "purple",
+      "chapters": [
+        {
+          "id": "cell-biology",
+          "name": "Sinh Học Tế Bào",
+          "lessons": [
+            {
+              "id": "cell-structure",
+              "title": "Cấu Trúc Tế Bào",
+              "content": "Tế bào là đơn vị cơ bản của sự sống, gồm màng tế bào, chất tế bào và nhân.",
+              "concepts": [
+                "Tế bào động vật không có thành tế bào và lục lạp",
+                "Tế bào thực vật có thành tế bào cellulose và lục lạp",
+                "Nhân tế bào chứa vật chất di truyền DNA"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
